@@ -54,5 +54,5 @@ Some posts from the Blogboard blogs, written for SEO and my amusement.
 
 ## Fun facts
 
-- I once made [a video game](https://developers.facebook.com/success-stories/golden-boot/) that reached to 1.000.000 daily players just a week after launch
+- I once made [a video game](https://developers.facebook.com/success-stories/golden-boot/) that reached 1.000.000 daily players one week after launch
 - I co-authored [6 Microsoft patents](https://patents.google.com/?inventor=drazen+zaric)
