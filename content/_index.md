@@ -48,7 +48,7 @@ Some posts from the Blogboard blogs, written for SEO and my amusement.
 
 &nbsp;
 
-[Better Heatmaps and Correlation Matrix Plots in Python](https://towardsdatascience.com/better-heatmaps-and-correlation-matrix-plots-in-python-41445d0f2bec) in Towards Data Science
+[Better Heatmaps and Correlation Matrix Plots in Python](https://medium.com/towards-data-science/better-heatmaps-and-correlation-matrix-plots-in-python-41445d0f2bec) in Towards Data Science
 
 &nbsp;
 
