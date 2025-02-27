@@ -1,0 +1,29 @@
+baseURL: https://drazenzaric.com/
+languageCode: en-us
+title: Drazen Zaric
+theme: PaperMod
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+params:
+  math: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  comments: true
+services:
+  disqus:
+    shortname: drazenzaric-com
+
+
