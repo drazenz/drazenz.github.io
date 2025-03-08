@@ -1,5 +1,5 @@
 +++
-title = 'Deriving cross-entropy losses, from binary classification to LLM distilation'
+title = 'Deriving cross-entropy losses from first principles. From binary classification to LLM distilation'
 date = 2025-01-15T23:36:23+02:00
 draft = false
 +++
@@ -380,6 +380,12 @@ With a slightly different notation, this is exactly PyTorch's **mean-reduced cro
 \end{cases}
 $$
 
+## References
 
+[1] [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf), Andrew Ng and Tengyu Ma, 2023
 
+[2] Pattern Recognition and Machine Learning, C. Bishop, 2006
 
+[3] [Maximum likelihood estimation - Relation to minimizing Kullback–Leibler divergence and cross entropy](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Relation_to_minimizing_Kullback%E2%80%93Leibler_divergence_and_cross_entropy)
+
+[4] [Knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation)
