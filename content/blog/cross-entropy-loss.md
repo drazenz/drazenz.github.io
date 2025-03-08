@@ -98,7 +98,7 @@ We have a multi-class classification problem when our targets \(y_i\) are not bi
     
     The GPT family of large language models solves this problem in a way that is equivalent to multi-class classification. For some input sequence \(x\), for each token \(w_i \in V\), we're modeling the probability \(P(w_i|x)\) that \(w_i\) is the next token.
 
-Expanding on our approach to binary classification, let's have a separate model \(f_j(x;\theta_j)\) for each class \(j=1\ldots C\). Since we want to model a multinomial distribution - each target \(y^{(i)}\) is one of \(C\) possible options - we'd like our probability estimates to sum up to 1.
+Expanding on our approach to binary classification, let's have a separate model \(f_j(x;\theta_j)\) for each class \(j=1\ldots C\). Since we want to model a categorical distribution - each target \(y^{(i)}\) is one of \(C\) possible options - we'd like our probability estimates to sum up to 1.
 
 If we converted each \(f_j(x;\theta)\) into a probability using the sigmoid function as we did for the binary case, we wouldn't be able to guarantee this property.
 
