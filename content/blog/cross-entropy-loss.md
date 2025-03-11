@@ -331,11 +331,13 @@ Before continuing, we need to note two important things that went our way here:
 - We're able to write \(\hat{P}_{X, Y}(x, y;\theta) = \hat{P}_{Y|X}(y|x;\theta)P_X(x) \) because we're only modeling the conditional part of the distribution, and \(P_X(x)\) is whatever the distribution of input samples we get in the dataset.
 - Note the problem setup - our dataset will consist of input samples \(x^{(1)}, \ldots, x^{(n)}\), but the targets won't be samples of \(Y\). Instead our targets are the entire *"true"* conditional distributions of \(Y\). This is important to make the law of large numbers work our way, as in the next step we'll estimate \(E_x\) for which we need iid. samples of \(X\).
 
+Finally:
+
 $$
 \begin{align*}
 \underset{\theta}{\mathrm{argmin}}\left\{
       -E_X\left[ \sum_{y\in \mathcal{Y}}{P_{Y|X}(y|x)\log\hat{P}_{Y|X}(y|x;\theta)} \right]
-  \right\} \xrightarrow[n\to\infty]{}
+  \right\} \xleftarrow[n\to\infty]{}
   \underset{\theta}{\mathrm{argmin}}\left\{
     -\frac{1}{n}\sum_{i=1}^{n}\sum_{y\in \mathcal{Y}}{P_{Y|X}(y|x^{(i)})\log\hat{P}_{Y|X}(y|x^{(i)};\theta)}
   \right\}
