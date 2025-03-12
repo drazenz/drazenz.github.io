@@ -391,3 +391,5 @@ $$
 [3] [Maximum likelihood estimation - Relation to minimizing Kullback–Leibler divergence and cross entropy](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Relation_to_minimizing_Kullback%E2%80%93Leibler_divergence_and_cross_entropy)
 
 [4] [Knowledge distillation](https://en.wikipedia.org/wiki/Knowledge_distillation)
+
+[5] [Samuel Cohen, Information Theory, Lecture 1: Defining Entropy and Information - Oxford Mathematics 3rd Yr Lecture](https://www.youtube.com/watch?v=ScX2aBFyrVU)
