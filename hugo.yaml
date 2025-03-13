@@ -22,8 +22,24 @@ params:
   ShowBreadCrumbs: true
   ShowToc: true
   comments: true
+  homeInfoParams:
+    Title:  👋 Hi there!
+    Content: Welcome to my website. Read my blog posts below 👇 or learn more about me [here](/about)
 services:
   disqus:
     shortname: drazenzaric-com
 
-
+menu:
+  main:
+    - identifier: blog
+      name: Blog 
+      url: /blog/
+      weight: 10
+    - identifier: about_me
+      name: About me
+      url: /about
+      weight: 20
+    - identifier: linkedin 
+      name: Contact
+      url: https://linkedin.com/in/drazenzaric
+      weight: 30
