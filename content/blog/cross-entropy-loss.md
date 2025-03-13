@@ -357,7 +357,7 @@ $$
 J(\theta) & = 
   -\frac{1}{n}\sum_{i=1}^{n}\sum_{y\in \mathcal{Y}}{P_{Y|X}(y|x^{(i)})\log\hat{P}_{Y|X}(y|x^{(i)};\theta)}\\
 & = -\frac{1}{n}\sum_{i=1}^{n}\sum_{y\in \mathcal{Y}}{P_{Y|X}(y|x^{(i)})\log\
-\frac{\exp(f_y(x{(i)};\theta_y))}{\sum_{j=1}^{C}{\exp(f_j(x^{(i)}; \theta_j))}}
+\frac{\exp(f_y(x^{(i)};\theta_y))}{\sum_{j=1}^{C}{\exp(f_j(x^{(i)}; \theta_j))}}
 }\\
 \end{align*}
 $$
