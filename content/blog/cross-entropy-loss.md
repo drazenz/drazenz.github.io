@@ -258,7 +258,7 @@ $$
 
 where \(\mathscr{l}(\theta)\) is the log-likelihood function that we defined at the beginning.
 
-So we started with a view based on information theory, we looked for a set of parameters \(\theta\) that yields a model distribution which minimizes the Kullback-Leibler divergence between the actual distribution and the model, and we ended up with the same optimal \(theta\) that the maximum likelihood method gave us.
+So we started with a view based on information theory, we looked for a set of parameters \(\theta\) that yields a model distribution which minimizes the Kullback-Leibler divergence between the actual distribution and the model, and we ended up with the same optimal \(\theta\) that the maximum likelihood method gave us.
 
 There's one thing left to clarify. When we gave the final loss function for the maximum likelihood estimates, we said they're the familiar forms of **binary cross-entropy** and **cross-entropy** loss. We haven't made it obvious yet why these terms are actually called cross-entropy losses.
 
