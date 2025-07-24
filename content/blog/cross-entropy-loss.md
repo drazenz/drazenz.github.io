@@ -84,7 +84,7 @@ $$
 So our optimal set of parameters \(\theta_{MLE}\) is the one that **maximizes** the log-likelihood. In the context of machine learning, we usually speak of **minimizing** some loss. Thus, in order to turn it into a loss, we'll just take the negative of the log likelihood:
 
 $$
-J(\theta) = -\mathscr{l}(\theta) = -\sum_{i=1}^{m}{ y^{(i)}\log\hat{y}^{(i)} } + (1 - y^{(i)})(1-\hat{y}^{(i)})
+J(\theta) = -\mathscr{l}(\theta) = -\sum_{i=1}^{m}{ y^{(i)}\log\hat{y}^{(i)} } + (1 - y^{(i)})\log(1-\hat{y}^{(i)})
 $$
 
 which gives us the familar form of the [**binary cross entropy loss**](https://pytorch.org/docs/stable/generated/torch.nn.BCELoss.html).
